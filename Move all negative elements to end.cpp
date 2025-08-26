@@ -10,7 +10,7 @@
 // Input : arr[] = [-5, 7, -3, -4, 9, 10, -1, 11]
 // Output : [7, 9, 10, 11, -5, -3, -4, -1]
 
-// solution
+// solution 
 
 class Solution {
 public:
@@ -35,3 +35,12 @@ public:
         }
     }
 };
+
+
+// solution 2
+
+class Solution {
+public:
+    void segregateElements(vector<int>& arr) {
+        sort(arr.begin(),arr.end());
+       return arr;}}
